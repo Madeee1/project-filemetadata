@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target":"ES6",
+        "lib": ["es2017", "dom"],
+        "types": ["node"],
+        "module": "ES2020",
+        "moduleResolution": "node",
+        "outDir": "dist",
+    }
+}

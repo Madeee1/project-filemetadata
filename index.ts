@@ -1,6 +1,8 @@
-var express = require('express');
-var cors = require('cors');
-require('dotenv').config()
+import express from 'express';
+import cors from 'cors';
+
+import {config} from 'dotenv';
+config();
 
 var app = express();
 
